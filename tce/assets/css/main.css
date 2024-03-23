@@ -1,15 +1,4 @@
-/**
-* Template Name: Append
-* Updated: Feb 01 2024 with Bootstrap v5.3.2
-* Template URL: https://bootstrapmade.com/append-bootstrap-website-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# Font & Color Variables
-# Help: https://bootstrapmade.com/color-system/
---------------------------------------------------------------*/
 /* Fonts */
 :root {
   --default-font: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -165,7 +154,7 @@ section {
 ------------------------------*/
 .index-page .header {
   --background-color: rgba(255, 255, 255, 0);
-  --heading-color: #ffffff;
+  --heading-color: #1f1d1d;
   --nav-color: rgba(255, 255, 255, 0.515);
   --nav-hover-color: #ffffff;
 }
@@ -202,7 +191,7 @@ section {
 
   .navmenu a,
   .navmenu a:focus {
-    color: var(--nav-color);
+    color: #00098E;;
     padding: 18px 15px;
     font-size: 16px;
     font-family: var(--nav-font);
@@ -229,7 +218,8 @@ section {
   .navmenu li:hover>a,
   .navmenu .active,
   .navmenu .active:focus {
-    color: var(--nav-hover-color);
+    color: #000000;
+    border-bottom: 2px solid #00098E;
   }
 
   .navmenu .dropdown ul {
@@ -799,10 +789,10 @@ section,
 /* Hero Section - Home Page
 ------------------------------*/
 .hero {
-  --default-color: #ffffff;
-  --default-color-rgb: 255, 255, 255;
-  --background-color: #8a8383;
-  --background-color-rgb: 0, 0, 0;
+  /* --default-color: #ffffff; */
+  /* --default-color-rgb: 255, 255, 255; */
+  /* --background-color: #8a8383; */
+  /* --background-color-rgb: 0, 0, 0; */
   width: 100%;
   min-height: 100vh;
   position: relative;
@@ -825,7 +815,7 @@ section,
 
 .hero:before {
   content: "";
-  background: rgba(var(--background-color-rgb), 0.5);
+  /* background: rgba(var(--background-color-rgb), 0.5); */
   position: absolute;
   inset: 0;
   z-index: 2;
